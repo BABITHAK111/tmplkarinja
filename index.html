@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Karinjeshwara Temple</title>
+    <style>
+        body{
+    margin:0;
+    padding:0;
+    font-family:Arial;
+    background-color:#E7F0DC;
+    overflow-x: hidden;
+}
+
+#about h2{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#about p{
+    border: 2px solid transparent; 
+    padding: 15px; 
+    margin: 20px auto; 
+    width: 80%; 
+    max-width: 800px; 
+    background-color: #ecc2c2; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    border-radius: 50px;
+    
+}
+    
+
+#about p:hover {
+    transform: scale(1.05);
+    background-color: #e0e0e0; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border-color: #333;
+}
+
+.para2{
+    border: 2px solid transparent; 
+    padding: 15px; 
+    margin: 20px auto; 
+    width: 80%; 
+    max-width: 800px; 
+    background-color: #ecc2c2; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    border-radius: 50px;
+}
+
+.para3{
+    border: 2px solid transparent; 
+    padding: 15px; 
+    margin: 20px auto; 
+    width: 80%; 
+    max-width: 800px; 
+    background-color: #ecc2c2; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    border-radius: 50px;
+
+}
+
+.para3 h3{
+    font-style: italic;
+}
+.para4 h3{
+    font-style: italic;
+
+
+}
+.para4{
+    border: 2px solid transparent; 
+    padding: 15px; 
+    margin: 20px auto; 
+    width: 80%; 
+    max-width: 800px; 
+    background-color: #ecc2c2; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    border-radius: 50px;
+}
+.para2:hover {
+    transform: scale(1.05);
+    background-color: ecc2c2; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    border-color: #333;
+}
+.para3:hover {
+    background-color: #e0e0e0; 
+    border-color: #333;
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.para4:hover {
+    transform: scale(1.03);
+    background-color: #e0e0e0; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border-color: #333;
+}
+
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #fff; 
+    border-bottom: 2px solid #ddd; 
+    z-index: 1000;
+}
+
+.main{
+    display: flex;
+    font-family:Geneva, Tahoma, sans-serif;
+    padding: 2px;
+    background-color: #088395;
+    border-radius: 30px;
+}
+.main h1{
+    padding: 8px;
+    font-size: 30px;
+
+}
+
+.main img{
+    border-radius: 20px;
+    transition: transform 2s ease-in-out;
+
+}
+.main img:hover{
+    transform: scale(1.1);
+     z-index: 2;
+}
+
+
+.para{
+    padding-left: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    border: 2px solid transparent;
+    background-color: white;
+    border-radius:20px;
+
+
+}
+.container{
+    width:90;
+    padding:3px;
+    margin:60px auto;
+    flex-direction: row;
+    justify-content: center;
+    display:flex;
+    
+}
+
+.box{
+    width:250;
+    margin:0 20px;
+    
+}
+.box img{
+    border-radius: 40px;
+    padding-left: 10px;
+    transition: transform 2s ease-in-out;
+}
+
+.box img:hover{
+    transform: scale(1.1);
+     z-index: 2;
+}
+.home h2{
+    padding-left: 30px;
+    border: 2px solid transparent;
+    border-radius:20px;
+
+}
+
+nav{
+                
+    position:sticky;
+    top:0;
+    left:0;
+    width:100%;
+    height:150px;
+    padding:40px;
+    box-sizing:border-box;
+    position:fixed;    
+}
+    
+    
+nav .logo{
+    padding:22px;
+    height:50;
+    float: left;
+    font-size:25px;
+    font-weight: bold;
+        
+}
+nav ul{
+    list-style: none;
+    float:right;
+    margin:0;
+    padding:0;
+    display:flex;
+}
+nav ul li a{
+    line-height: 80px;
+    color:#fff;
+    padding: 30px;
+    text-decoration:solid;
+    font-size:15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+        
+}
+nav ul li a:hover{
+    background: #F7DCB9;
+    border-radius:25px;
+}    
+
+.fest {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px auto; 
+    padding: 20px;
+    background-color: #fff; 
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.fest-content {
+    display: flex;
+    align-items: center; 
+}
+
+.fest h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333; 
+    margin-right: 15px; 
+}
+
+.fest hr.line {
+    border: 0;
+    border-top: 2px solid #007bff; 
+    width: 150px; 
+    margin: 0; 
+}
+
+.fest button {
+    padding: 10px 20px; 
+    font-size: 1em; 
+    color: #fff; 
+    background-color: #007bff;
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.fest button:hover {
+    background-color: #0056b3; 
+}
+.festival-container {
+    display: flex; 
+    
+}
+.festival {
+    background-color: #fff; 
+    border: 2px solid #ddd; 
+    border-radius: 8px; 
+    width: 80%; 
+    max-width: 600px; 
+    margin: 20px auto;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.festival img {
+    width: 100px; 
+    height:100px;
+    height: auto; 
+    border-radius: 8px; 
+}
+
+.festival .content {
+    margin: 15px 0; 
+}
+
+.festival h3 {
+    margin: 0 0 10px 0; 
+    font-size: 1.5em; 
+    color: #333; 
+}
+
+.festival p {
+    margin: 0; 
+    color: #555; 
+}
+
+.festival hr {
+    border: 0;
+    border-top: 1px solid #ddd; 
+    margin: 15px 0; 
+}
+
+.festival button {
+    display: block; 
+    width: 100%; 
+    padding: 10px; 
+    font-size: 1em; 
+    color: #fff; /
+    background-color: #007bff; 
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;  
+    transition: background-color 0.3s ease; 
+}
+
+.festival button:hover {
+    background-color: #0056b3; 
+}
+
+.festival1 {
+    background-color: #fff; 
+    border: 2px solid #ddd; 
+    border-radius: 8px; 
+    width: 80%; 
+    max-width: 600px; 
+    margin: 20px auto;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.festival1 img {
+    width: 100px; 
+    height:100px;
+    height: auto; 
+    border-radius: 8px; 
+}
+
+.festival1 .content {
+    margin: 15px 0; 
+}
+
+.festival1 h3 {
+    margin: 0 0 10px 0; 
+    font-size: 1.5em; 
+    color: #333; 
+}
+
+.festival1 p {
+    margin: 0; 
+    color: #555; 
+}
+
+.festival1 hr {
+    border: 0;
+    border-top: 1px solid #ddd; 
+    margin: 15px 0; 
+}
+
+.festival1 button {
+    display: block; 
+    width: 100%; 
+    padding: 10px; 
+    font-size: 1em; 
+    color: #fff; /
+    background-color: #007bff; 
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;  
+    transition: background-color 0.3s ease; 
+}
+
+.festival1 button:hover {
+    background-color: #0056b3; 
+}
+
+.footer-container {
+	width: 99%;
+    height: 450px;
+	display: flex;
+    flex-direction:column;
+	flex-wrap: wrap;
+	justify-content:center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding:10px;
+   
+    
+   }
+
+.footer-col {
+	width: 20%;
+	padding: 40px;
+}
+
+.footer-col-3 {
+	text-align: center;
+    padding-top:50px; ;
+}
+
+.footer-col-2 img {
+	max-width: 100%;
+	height: 200px;
+    text-align: right;
+    border-radius: 20px;
+}
+
+
+.footer-col-1{
+    text-align:center ;
+    display:inline;
+    padding-top: 50px;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+#contact-us {
+  animation: fadeIn 1s ease-in-out;
+  padding: 20px;
+  border-radius: 10px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for form elements */
+.animated-form h3 {
+  margin: 0;
+  padding: 10px 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Animation for input fields */
+@keyframes inputFocus {
+  from { border-color: #ccc; }
+  to { border-color: #3498db; }
+}
+
+.animated-form input[type="text"] {
+  border: 2px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  width: calc(100% - 24px);
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.animated-form input[type="text"]:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Add some spacing and animation to the form header */
+.animated-form h3 {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.animated-form h3::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #3498db;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.animated-form h3:hover::after {
+  width: 100%;
+}
+.submit-btn {
+  display: inline-block;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+.submit-btn:active {
+  background-color: #1c5d99;
+  transform: scale(0.98);
+}
+
+
+
+</style>
+</head>
+<body>
+    <header>
+    <div class="main">
+        <img src="c:\Users\DELL\Downloads\shivparvathi.jpg" height="150" width="150" >
+        <h1></b>SHRI KARINJESHWARA <br>TEMPLE</h1>
+    </div>
+
+    <nav>
+        <div class="logo"></div>
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#contact-us">CONTACT US</a></li> <!-- Changed to match ID -->
+            <li><a href="#location">LOCATION</a></li>
+        </ul>
+    </nav>
+    </header>
+    
+
+   <div class="home">
+    <b><h2>HOME</h2></b><br>
+    <div class="para">
+    <p><b>A temple (from the Latin templum) is a place of worship, a building used for spiritual rituals and activities such as prayer and sacrifice.The houses of worship in many ancient religions were called temples. Hinduism, Buddhism, and several other religions today also have temples. <br>The architecture, or building style, of temples varies from place to place.</b></p></div></div>
+
+    <div class="container">
+     <div class="box">
+        <img src="c:\Users\DELL\Downloads\temple20.jpg" height="300" width="400">
+     </div>  
+     
+     <div class="box">
+        <img src="c:\Users\DELL\Downloads\temple21.jpeg" height="300" width="400">
+     </div>
+        
+    <div class="box">
+        <img src="c:\Users\DELL\Downloads\temple4.jpg" height="300" width="400">
+    </div>
+    </div>
+
+    <section id="about">
+        <b><h2>ABOUT</h2></b> <br>
+             <b><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sri Karinjeshwara Temple (Kannada : ಕಾರಿಂಜೇಶ್ವರ Kārin̄jēśvara) is Hindu Temple, a famous Lord Shivaatemple located Karinja in Bantwala Taluk, Kavalamudur Village, Dakshina Kannada, Karnataka, India. <br>This temple is situated on the peak of Karinja Hill, about 1000 feet above sea level in Kodyamale hills, Karinjeshwara.<br>There are about 600 steps to reach this temple. This temple has two parts- one is lord Shiva is on the top of a cliff and the other is for the Goddess Parvati and Lord Ganesha in the middle of the way to the hill. There are ponds named Gadha teertha at hill bottom, Ungusta theerta at hill middle.This Karinja hill is inhabited by simians (monkeys) and they are well revered here. Every day after noon a Naivedya, or food offering (mainly of rice in this case), is placed on a special large rectangular stone platform in front of the Shiva temple where the monkeys feast the food.This specialty of offering to the monkey is called the Vanara(Monkey) anna(rice) Seva. The leader of congress of the simian group, generally called Karinja Dadda, takes the first bite.The presiding deity of Sri Karinjeshwara temple is Lord Shiva, addressed here as Surya Sadashiva atop a hill. Additionally, in the midway lies the shrine dedicated to Goddess Parvati. Pilgrims and tourists to Karinjeshwara temple must climb about 600 steps to reach the Lord Shiva temple at the summit. The path is motorable up to the Parvati shrine in the midway, after which tourists will have to walk up to the Shiva temple, which consists of about 150 steps. The Karinjeshwara temple is relatively small, but upon reaching it, one gets to immerse in immeasurable tranquillity. Also, the surrounding nature from the top of the hill provides mesmerising views.</p></b><br>
+
+             <div class="para2">
+             <b><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sri Karinjeshwara temple history dates back over a thousand years and has served as a testament in various eras or Yugas in Hindu mythology. It was addressed as 'Roudra Giri' during 'Krutha Yuga', 'Bhima Shaila' in 'Dwapara Yuga', 'Gajendra Giri' in 'Thretha Yuga', and 'Karinja' in the present 'Kali Yuga'.Furthermore, the temple has connections with the Ramayana and the Mahabharata. The caves here have also served as hideouts for the Pandavas during their exile. The Pandavas brothers, Bhima and Arjuna, created four Theerthams, or sacred ponds in the Karinjeshwara temple. According to beliefs, Bhima struck his mace (Gada) on the ground to form the ‘Gadha Theertha’. Also, when he knelt on the floor, Bhima created the ‘Angushta Theertha’ and the ‘Janu Theertha’ with his thumb.Furthermore, Arjuna arrowed a pig, forming the ‘Handi Theertha’ or the ‘Varaha Theertha’.The Karinjeshwara temple has a further enriched history with its link with the Ramayana. Popular beliefs state that Lord Rama and His brother Lakshmana had visited the temple. A stone at the bottom of the Sri Karinjeshwara temple flag post reveals that the Kelady rulers under the Vijayanagara kingdom had extended their royal patronage to the temple.</p></b></div>
+
+            <div class="para3">
+                <h3>Mahashivratri festival</h3>
+                <b><p>The otherwise quiet Sri Karinjeshwara temple, Bantwal, assumes a festive glow with the Maha Shivratri festival, which is celebrated for four days. On the day of Maha Shivratri, devotees throng the temple from nearby areas to participate in the elaborate poojas. Lord Shiva and Goddess Parvati are united on the second day. On the third day of the Rathotsava, the deities go out in a procession. The fourth day marks the culmination of the festival rituals, where the deities return to their shrines after being carried out on a small stroll. There are other festivals celebrated in the temple as well.</p></b><br></b></div>
+
+             <div class="para4">
+                    <h3>Feeding the monkeys</h3>
+                    <b><p>The feeding of monkeys that inhabit the area is a significant event in the Sri Karinjeshwara temple. Every noon, the priests offer rice to the monkeys on a stone slab in front of Lord Shiva’s shrine. The leader of the group of monkeys known as the Karinja Dadda takes the first bite.It is also auspicious for pilgrims to dip in the ‘Gadha Teertha’ during Ashada, which they usually do.</p></b></div>
+
+            </div>
+             <section id="contact-us">
+                <h2><b>CONTACT US</b></h2> <br><br>
+                <form id="contact-form" class="animated-form">
+                    <h3>First Name: <input type="text"></h3><br><br>
+                    <h3>Last Name: <input type="text"></h3><br><br>
+                    <h3>Phone No: <input type="text"></h3><br><br>
+                    <h3>Email Id: <input type="text"></h3><br><br>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </section>
+
+            <section id="location">
+                <h2><b>LOCATION</b></h2>
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.9004670240242!2d75.12473297507539!3d12.914118337395978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba4a56f54f1700b%3A0x8c1cc55cbcbe14f0!2sSri%20Karinjeshwara%20Temple!5e0!3m2!1sen!2sin!4v1721190482211!5m2!1sen!2sin" width="1350" height="500" style="border: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            </section>
+
+            
+
+            <div class="fest">
+                <div class="fest-content">
+                    <h3>UPCOMING FESTIVALS</h3>
+                    <hr class="line">
+                </div>
+                <button>VIEW MORE</button>
+            </div>
+            <div class="fest_container">
+            <div class="festival">
+                <img src="c:\Users\DELL\Downloads\temple6.jpg" width="300" height="200" alt="temple">
+                <div class="content">
+                    <h3>Ati(Ashada) Amavasya Thirtha Snana - 4 Aug 2024</h3>
+                    <p>The day is very special for people of Tulunad who consume Paleda Kashaya and Methe Ganji. The Paleda Kashaya or concoction is prepared from the bark of the Paale tree, which is also known as Devil’s Tree in English, while Methe Ganji is a rice porridge prepared using fenugreek seeds.</p>
+                </div>
+                <hr>
+                <button>READ MORE</button>
+            </div>
+    </div>
+    <div class="festival1">
+        <img src="c:\Users\DELL\Downloads\temple7.jpg" width="300" height="200" alt="temple.img">
+        <div class="content">
+            <h3>NagaraPAnchami-10 Aug 2024</h3>
+            <p> Lord Krishna defeated Kaliya nag, and the snake and his wives begged for his life after realising Krishna was no ordinary child. Krishna spared his life after a promise from him that he will no longer harass the residents of Gokul. Nag Panchami is observed to celebrate Krishna's victory over Kaliya nag.</p>
+        </div>
+       
+        <hr>
+        <button>READ MORE</button>
+    </div>
+        
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col footer-col-1">
+                <p>CONTACT US</p><br><br>
+
+                    <b>TEMPLE OFFICE :</b><br><br>
+                    
+                    SHREE KARINJESHWARA <br>
+                    Navoor,Karnataka -574211<br>
+                    Office :080 2235 2828<br>
+                    E – Mail : shrikarinjeshwara.com<br><br>
+                    
+                    <b>OFFICE TIMINGS</b> :<br><br>
+                    
+                    Morning : 09:00 AM to 12:30 PM<br>
+                    Evening : 05:30 PM to 06:30 PM</p><br>
+                
+            </div>
+
+            <div class="footer-col footer-col-3">
+                <!-- content for column 3 -->
+                <p>QUICK LINKS
+
+                   <ol>Online Room Booking</ol> 
+                    <ol>Terms And Policies</ol>
+                    <ol>Events</ol>
+                    <ol>Notices</ol>
+                    <ol>Feedback</ol>
+                    <ol>Contact Us</ol>
+                    <ol>Download</ol>
+                    <ol>Institutions</ol></p>
+                    
+                
+                </div>
+            <div class="footer-col footer-col-2">
+                 <h3><b>RECENT  FACEBOOK  POSTS</b></h3>
+                <img src="temple3.jpg"  height="100" width="200" alt="temple img">
+                <br>
+                
+            </div>
+            
+      
+ </footer>
+
+ <script src="document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('contact-form');
+
+    form.addEventListener('click', function() {
+        form.classList.toggle('active');
+    });
+});">
+    </script>
+</body>
+</html>
